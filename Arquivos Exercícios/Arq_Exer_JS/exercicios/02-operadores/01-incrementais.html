@@ -13,7 +13,24 @@
 	<p id="teste4">O valor de d é: </p>
 
 	<script type="text/javascript">
-		
+		//criação de variaveis 
+		let a=2,b=3,c=4,d=10
+
+		//incremento antes aumenta antes
+		//incremento depois aumenta depois
+		a=a++
+		b=b++
+		d=--d
+
+		for(let cont=1;cont <=3;cont++){
+			c=c+cont
+		}
+
+		document.getElementById("teste1").innerHTML+=a==b
+		document.getElementById("teste2").innerHTML+=b===c
+		document.getElementById("teste3").innerHTML+=c>=a
+		document.getElementById("teste4").innerHTML+=d<=c
+
 	</script>
 </body>
 </html>
